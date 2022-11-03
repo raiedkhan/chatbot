@@ -27,3 +27,4 @@ tflearn==0.3.2
 tqdm==4.45.0
 Werkzeug==1.0.1
 wrapt==1.12.1
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
