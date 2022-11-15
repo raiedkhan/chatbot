@@ -15,7 +15,7 @@ Markdown==3.2.1
 MarkupSafe==1.1.1
 nltk==3.5
 numpy==1.18.3
-Pillow==7.1.1
+Pillow==9.2.0
 protobuf==3.6.0
 regex==2020.4.4
 six==1.14.0
@@ -27,3 +27,4 @@ tflearn==0.3.2
 tqdm==4.45.0
 Werkzeug==1.0.1
 wrapt==1.12.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
